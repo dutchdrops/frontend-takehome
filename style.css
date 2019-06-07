@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.page-wrap {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.wrapper {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.page-head {
+    display: flex;
+}
+
+.page-head__title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.page-content {
+    /* Hhhmm, maybe some css needs to be added here for the sticky footer */
+}
+
+/* Uh-oh, looks like Marie Kondo cleaned up the footer styling */
+
+.page-footer {}
+
+.footer-newsletter {}
+
+.footer-newsletter__wrapper {}
+
+.footer-newsletter__text,
+.footer-newsletter__form {}
+
+.footer-newsletter__text {}
+
+.footer-newsletter__form {}
+
+.footer-newsletter__input-group {}
+
+.footer-newsletter__field {}
+
+.footer-newsletter__button {}
+
+.footer-service {}
+
+.footer-service__header {}
+
+.footer-service__list {}
+
+.footer-service__link {}
